@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+    float a,b,c,perm,area;
+      scanf("%f %f %f",&a,&b,&c);
+            if(a+b>c && b+c>a && a+c>b ){
+            perm=a+b+c;
+            printf("Perimetro = %.1f\n",perm);
+            }
+
+            else{
+                  area=.5*(a+b)*c;
+                  printf("Area = %.1f\n",area);
+            }
+
+      return 0;
+}
